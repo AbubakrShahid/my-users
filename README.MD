@@ -21,7 +21,7 @@ Create `.env` file and place the following variables
 - PORT
 - DATABASE_NAME
 
-Execute the following command to starte the application
+Execute the following command to start the application
 
 `docker compose up`
 
