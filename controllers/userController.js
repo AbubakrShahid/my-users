@@ -6,12 +6,12 @@ const getUserById = async (req, res) => {
       user,
     });
   } catch (error) {
-    console.error("Error fetching user:", error);
+    console.error('Error fetching user:', error);
     res.status(500).json({
       success: false,
-      error: "Failed to retrieve user",
+      error: 'Failed to retrieve user',
       details:
-        process.env.NODE_ENV === "development" ? error.message : undefined,
+        process.env.NODE_ENV === 'development' ? error.message : undefined,
     });
   }
 };
